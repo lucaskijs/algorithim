@@ -27,21 +27,14 @@ int main()
 
   for(i=0; i<N; i++)
     {
-      if(N<=2)
+      if(i % 3 == 2)
       {
-        S += arr[i];
+        continue;
       }
       else
       {
-        if(i % 3 == 2)
-        {
-          continue;
-        }
-        else
-        {
-          S += arr[i];
-        }
-      }
+        S += arr[i];
+      } 
     }
 
   printf("%d", S);
