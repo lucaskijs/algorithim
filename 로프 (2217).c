@@ -11,7 +11,7 @@ using namespace std;
 
 int main()
 {
-  int N, i, j, arr[100001], max=0;
+  int N, i, arr[100001], max=0;
   scanf("%d", &N);
 
   int a;
